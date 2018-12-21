@@ -1,0 +1,28 @@
+Session-1
+	-	Install Node
+	-	Install Angular CLI npm install -g @angular/cli
+	-	Install npm install -g typescript
+	-	Install Visual Studio Code
+	-	Write a simple test.ts and compile using tsc test.ts
+	-	Run the transpiled file using node test.js
+	- 	Show Code in Visual Studio Code Editor (code .)
+	-	Generate a new app 
+			ng new my-app
+	-	Start this app
+			ng serve
+			Access http://localhost:4200
+	- var and let 
+			function test(){
+				for(var i=0;i<5;i++){
+				console.log(i);
+				}
+				console.log(i);
+			}
+	-	Datatypes in Typescript
+			any,number,string,boolean
+	
+	Typecasting 
+	let a ;//Here Type is any
+	a="A";
+    1)(<string>a)
+	2)(a as string)
